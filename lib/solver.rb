@@ -13,6 +13,5 @@ class Solver
   end
 
   def hashed
-    require 'pry'; binding.pry
   end
 end
