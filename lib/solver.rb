@@ -11,4 +11,8 @@ class Solver
   def parse(puzzle_text)
     puzzle_text.split("\n")
   end
+
+  def hashed
+    require 'pry'; binding.pry
+  end
 end
